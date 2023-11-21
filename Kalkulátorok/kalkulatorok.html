@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+    <link href="Style/kalkulatorStyle.css" type="text/css" rel="stylesheet"/>
+
+    <title>Mértékegység átváltás</title>
+</head>
+
+<body>
+    <script src="JavaScript/kalkulator.js"></script>
+
+    <h1>Mértékegységek átváltása</h1>
+    <h2>Font - kilogramm</h2>
+
+    <input id="inputFont" type="number" placeholder="Font"
+    oninput="fontKilogrammKonverter(this.value)" onchange="fontKilogrammKonverter(this.value)"/>
+    Kilogramm: <span id="outputKilogramm"></span>
+</body>
+</html>
