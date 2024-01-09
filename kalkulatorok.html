@@ -14,12 +14,29 @@
     <script src="JavaScript/kalkulator.js"></script>
 
     <h1>Mértékegységek átváltása</h1>
+
+    <div class="flex-container">
+        <div>
+
     <h2>Font - kilogramm</h2>
 
+   <p>
     <input id="inputFont" type="number" placeholder="Font"
     oninput="fontKilogrammKonverter(this.value)" onchange="fontKilogrammKonverter(this.value)"/>
+   </p>
+   <p>
     Kilogramm: <span id="outputKilogramm"></span>
+   </p>
+  
+   <h2>Kilogramm - Font</h2>
 
+   <p>
+    <input id="inputFont" type="number" placeholder="Kilogramm"
+    oninput="kilogrammFontkonverter(this.value)" onchange="kilogrammFontKonverter(this.value)"/>
+   </p>
+   <p>
+    Font: <span id="outputFont"></span>
+   </p>
     <footer>
    
         <hr />

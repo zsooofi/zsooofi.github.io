@@ -50,3 +50,19 @@ td, th {
   .padding-top {
     padding-top: 20px;
   }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFCBCB;
+    width: 85%;
+  }
+
+  .flex-container > div {
+    background-color: #4f9b08;
+    margin: 10px;
+    padding: 20px;
+    column-gap: 15px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+  }
