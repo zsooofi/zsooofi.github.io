@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #C4DFAA;
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1em;
@@ -7,10 +7,10 @@ body {
     }
 
 h1 {
-    color: #C4DFAA;
+    color: #000;
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid #E7FBBE;
+    border-bottom: 1px solid #000;
     }
 
 h2 {
@@ -32,7 +32,7 @@ a:hover {
 
 .table_nutrition {
     border: 3px solid;
-    color:#FFCBCB;
+    color:#000;
     border-collapse: collapse;
     font-size: 1rem;
 }
@@ -41,7 +41,7 @@ td, th {
     padding: 10px 20px;
   }
   th {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(4, 124, 36);
   }
   
   td {
@@ -57,6 +57,7 @@ td, th {
     flex-direction: row;
     background-color: rgb(0, 0, 0);
     width: 85%;
+    border-radius: 20px;
   }
 
   .flex-container > div {
